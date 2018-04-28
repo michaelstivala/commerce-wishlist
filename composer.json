@@ -1,0 +1,43 @@
+{
+    "name": "michaelstivala/commerce-wishlist",
+    "description": "Add wish list functionality to Craft Commerce 2",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "commerce wishlist"
+    ],
+    "support": {
+        "docs": "https://github.com/michaelstivala/commerce-wishlist/blob/master/README.md",
+        "issues": "https://github.com/michaelstivala/commerce-wishlist/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Stivala",
+            "homepage": "https://michaelstivala.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "michaelstivala\\commercewishlist\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Commerce Wishlist",
+        "handle": "commerce-wishlist",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/michaelstivala/commerce-wishlist/master/CHANGELOG.md",
+        "components": {
+            "wishlists": "michaelstivala\\commercewishlist\\services\\Wishlists"
+        },
+        "class": "michaelstivala\\commercewishlist\\CommerceWishlist"
+    }
+}

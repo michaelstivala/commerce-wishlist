@@ -2,7 +2,6 @@
     "name": "michaelstivala/commerce-wishlist",
     "description": "Add wish list functionality to Craft Commerce 2",
     "type": "craft-plugin",
-    "version": "1.0.0",
     "keywords": [
         "craft",
         "cms",
